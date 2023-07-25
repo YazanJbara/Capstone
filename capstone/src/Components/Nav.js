@@ -9,22 +9,20 @@ function Nav() {
                     <a href="/Home">Home</a>
                 </li>
                 <li>
-                    <a href="/about">about</a>
+                    <a href="/Menu">Menu</a>
                 </li>
                 <li>
-                    <a href="/reservation">reservation</a>
+                    <a href="/reservation">Reservation</a>
                 </li>
                 <li>
-                    <a href="/order">order</a>
+                    <a href="/order">Order</a>
                 </li>
                 <li>
-                    <a href="/">Menu</a>
+                    <a href="/About">About</a>
                 </li>
                 <li>
                     <a href="/login">login</a>
                 </li>
-                
-                
             </ul>
 
 

@@ -1,6 +1,7 @@
-import Header from './Components/Header';
+import Herosection from './Components/Herosection'
 import Nav from './Components/Nav'
-import Main from './Components/Main'
+import Specials from './Components/Specials'
+import Testimonials from './Components/Testimonials'
 import Footer from './Components/Footer'
 import './App.css';
 
@@ -8,8 +9,9 @@ function App() {
   return (
     <>
       <Nav/>
-      <Header />
-      <Main />
+      <Herosection/>
+      <Specials/>
+      <Testimonials/>
       <Footer />
     </>
   );

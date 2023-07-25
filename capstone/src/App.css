@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  
 }
 
 .nav {
@@ -18,7 +19,6 @@
 ul {
   list-style: none;
   display: flex;
-  /* Use flexbox to position the navigation elements */
   align-items: center;
   margin: 0;
   padding: 0;
@@ -43,10 +43,13 @@ a:hover {
 
 /* Media Query for Responsive Layout */
 @media screen and (max-width: 768px) {
+
   /* Adjust the layout for small screens */
   .nav {
     grid-template-columns: 1fr;
     justify-items: center;
+    padding: 5px;
+    /* Reduce the padding for better scaling */
   }
 
   #navLogo {
@@ -57,9 +60,17 @@ a:hover {
   ul {
     left: 0;
     display: block;
+    text-align: center;
+    /* Center the list items vertically */
   }
 
   li {
-    margin-bottom: 10px;
+    margin: 10px 0;
+    /* Add space above and below each list item */
   }
+}
+.gridCont{
+  background-color: #495e57;
+
+
 }
